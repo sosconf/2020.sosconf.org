@@ -2,48 +2,41 @@
 
 name: Deploy to GitHub Pages
 
-# 控制工作流何时运行
 on:
   push:
     branches:
-      - main # 或者您的主分支名称，例如 master
+      - main
 
-# 工作流环境变量，可以根据需要设置
 env:
-  NODE_VERSION: '20.x' # 指定要使用的 Node.js 版本 (建议使用最新的 LTS 版本之一)
+  NODE_VERSION: '16.x' # <--- 将 Node.js 版本改为 16.x
 
 jobs:
+  # ... 后续内容与方法一中的类似，确保 Build project 步骤正确 ...
   build-and-deploy:
     name: Build and Deploy
-    runs-on: ubuntu-latest # 指定运行器环境
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v4 #检出您的仓库代码
+        uses: actions/checkout@v4
 
       - name: Set up Node.js ${{ env.NODE_VERSION }} ⚙️
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-          cache: 'yarn' # 缓存 Yarn 依赖以加快后续构建速度
+          cache: 'yarn'
 
       - name: Install dependencies 📦
-        run: yarn install --frozen-lockfile # 使用 --frozen-lockfile 确保使用锁文件的精确依赖版本
+        run: yarn install --frozen-lockfile
+
+      - name: Update Browserslist database (optional but recommended)
+        run: npx browserslist@latest --update-db
 
       - name: Build project 🛠️
-        run: yarn build # 运行 package.json 中的 build 脚本
-        # 如果您的 vue.config.js 中的 publicPath 需要动态设置（例如基于仓库名称）
-        # 您可能需要在这里或构建脚本中处理它。
-        # 例如： run: VUE_APP_PUBLIC_PATH=/${{ github.event.repository.name }}/ yarn build
-        # 但通常在 vue.config.js 中使用 process.env.BASE_URL 或类似的逻辑更好
+        run: yarn build # 如果使用 Node 16，可能不需要 NODE_OPTIONS
 
       - name: Deploy to GitHub Pages 🚀
-        uses: peaceiris/actions-gh-pages@v4 # 一个流行的部署到 gh-pages 分支的 Action
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }} # GitHub 自动提供的 token，用于认证
-          publish_dir: ./dist # 指定要发布的目录 (Vue CLI 默认构建到 dist)
-          # publish_branch: gh-pages # 默认就是 gh-pages，可以省略
-          # user_name: 'github-actions[bot]' # 自定义提交者名称 (可选)
-          # user_email: 'github-actions[bot]@users.noreply.github.com' # 自定义提交者邮箱 (可选)
-          # commit_message: ${{ github.event.head_commit.message }} # 使用最后一次提交的消息作为部署提交消息 (可选)
-          # cname: your-custom-domain.com # 如果您使用自定义域名，请取消注释并替换
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
