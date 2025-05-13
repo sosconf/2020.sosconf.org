@@ -1,0 +1,582 @@
+{
+  "data": {
+    "staff": {
+      "special": [
+        {
+          "name": "Ridger Chu",
+          "desc": "General Convener",
+          "image": "",
+          "link": ""
+        },
+        {
+          "name": "Charles Yang",
+          "desc": "Vice General Convener",
+          "image": "",
+          "link": ""
+        },
+        {
+          "name": "Ding Wangbin",
+          "desc": "Vice General Convener",
+          "image": "",
+          "link": ""
+        }
+      ],
+      "media": [
+        {
+          "name": "Ju Hongzhe",
+          "desc": "",
+          "image": "",
+          "link": ""
+        },
+        {
+          "name": "Blue Bailing",
+          "desc": "",
+          "image": "",
+          "link": ""
+        },
+        {
+          "name": "Yang Heran",
+          "desc": "",
+          "image": "",
+          "link": ""
+        },
+        {
+          "name": "Wu Yidi",
+          "desc": "",
+          "image": "",
+          "link": ""
+        }
+      ],
+      "tech": [
+        {
+          "name": "王康",
+          "desc": "",
+          "image": "",
+          "link": ""
+        },
+        {
+          "name": "Song Jingshen",
+          "desc": "",
+          "image": "",
+          "link": ""
+        },
+        {
+          "name": "Zhou Jiacheng",
+          "desc": "",
+          "image": "",
+          "link": ""
+        },
+        {
+          "name": "Zhang Qingyu",
+          "desc": "",
+          "image": "",
+          "link": ""
+        },
+        {
+          "name": "Ming Yu Yang",
+          "desc": "",
+          "image": "",
+          "link": ""
+        },
+        {
+          "name": "Zhang Aojie",
+          "desc": "",
+          "image": "",
+          "link": ""
+        },
+        {
+          "name": "Liu Liu",
+          "desc": "",
+          "image": "",
+          "link": ""
+        }
+      ],
+      "sponsor": [
+        {
+          "name": "Lu Jizhou",
+          "desc": "",
+          "image": "",
+          "link": ""
+        },
+        {
+          "name": "Zhong Tianle",
+          "desc": "",
+          "image": "",
+          "link": ""
+        },
+        {
+          "name": "He Qigong",
+          "desc": "",
+          "image": "",
+          "link": ""
+        }
+      ],
+      "site": [
+        {
+          "name": "Liu Xiao",
+          "desc": "",
+          "image": "",
+          "link": ""
+        }
+      ],
+      "graphic": [
+        {
+          "name": "Yan Shuyao",
+          "desc": "",
+          "image": "",
+          "link": ""
+        },
+        {
+          "name": "Xu Yang",
+          "desc": "",
+          "image": "",
+          "link": ""
+        },
+        {
+          "name": "Tao Zhi",
+          "desc": "",
+          "image": "",
+          "link": ""
+        }
+      ],
+      "video": [
+        {
+          "name": "Chen Xuanlin",
+          "desc": "",
+          "image": "",
+          "link": ""
+        }
+      ]
+    },
+    "speakers": [
+      {
+        "name": "How to design a programming language that nobody uses",
+        "desc": [
+          "Chinese Programming? No",
+          "Cool grammar? No",
+          "I insisted on three years, released dozens of versions, but there is no user's programming language, what is the story behind it? Listen to the CovScript founder personally tell you."
+        ],
+        "time": "9:40-10:10",
+        "speaker": {
+          "name": "Li Dengchun",
+          "org": "Zhirui Technology Innovation Computer Association",
+          "desc": [
+            "System Software/Open Source Community/Programming Education",
+            "Double Special Student in School of Computer Science, Sichuan University",
+            "Seven years of nearly a million lines of C++ programming experience",
+            "The founder of CovScript programming language"
+          ]
+        },
+        "interview_url": "https://sosconf.org/zh-hans/sosconf-zh-speaker-series-interviews-1/"
+      },
+      {
+        "name": "Crawlers, should they be cut or rewarded?",
+        "desc": [
+          "With the outbreak of artificial intelligence, deep learning is currently the main focus. The collection of sample data has given birth to the development of crawlers. But crawlers are like worms living in the sun. There are more moral standards to restrain it. Some people use it to do evil, others use it legally. Without a standard, reptiles will always be worms."
+        ],
+        "time": "16:20-16:40",
+        "speaker": {
+          "name": "李洋",
+          "org": "",
+          "desc": [
+            "A Coder from the Northwest 'Bingtuan' of the motherland who is always doing 'meaningless thinking', loves code and loves open source. Always believes that the purpose of writing code is to make science and technology serve mankind and promote social development. Good at writing, programming, and writing. Mainly in prose and poetry. Programming is mainly in Python, front-end and some hardware programming. He has won the silver prize of the Internet + Innovation and Entrepreneurship Competition, mainly in the team responsible for data and hardware interaction."
+          ]
+        },
+        "interview_url": ""
+      },
+      {
+        "name": "Open Source Software and Free Software",
+        "desc": [
+          "Introducing the historical origin of open source software and free software"
+        ],
+        "time": "11:20-11:50",
+        "speaker": {
+          "name": "Kiritake Kumi",
+          "org": "",
+          "desc": [
+            "Currently in freshman year...have a certain computer foundation, and have a certain interest in open source."
+          ]
+        },
+        "interview_url": ""
+      },
+      {
+        "name": "Open Source My ⻅ & SimpleXX Community Introduction",
+        "desc": [
+          "It is mainly divided into two parts.",
+          "The first part is an introduction to my open source experience, and the second part is an introduction to the Simple-XX community."
+        ],
+        "time": "15:40-16:20",
+        "speaker": {
+          "name": "Niu Zhihong",
+          "org": "Xi'an Shiyou University",
+          "desc": [
+            "Male, born in 1999, junior year in Anshi Petroleum University.",
+            "ASoC2019 Mentee, GSoC2020 Meetee, open source software supply chain light-up plan Mentor.",
+            "Founder of SimpleXX community. Currently involved in kernel development at ThoughtWorks.",
+            "GitHub: MRNIU."
+          ]
+        },
+        "interview_url": ""
+      },
+      {
+        "name": "WebP Server Go",
+        "desc": [
+          "WebP is a picture file format that provides both lossy compression and lossless compression. The goal is to reduce the file size, but achieve almost the same picture quality as the JPEG format.",
+          "In order to make the pictures of the dots output in WebP format painlessly, some cloud service providers provide conversion services. For personal sites, in order to compress the pictures in WebP format without changing the original URL of the site, and Breaking away from the limitations of cloud service providers, achieving the effect of saving traffic + improving page loading speed, WebP Server Go (https://github.com/webp-sh/webp_server_go) came into being. ",
+          "WebP Server written in Go is a single binary with excellent performance and can seamlessly convert JPG/PNG to webp.",
+          "Only one configuration is needed to output site pictures in WebP format without changing the URL. The only changes are content-type and length, which painlessly speeds up the site. It originally took 10 seconds to download a 10M picture, using WebP Server Go (https://github.com/webp-sh/webp_server_go), it only takes one second."
+        ],
+        "time": "10:20-10:50",
+        "speaker": {
+          "name": "Nova Kwok",
+          "org": "PingCAP",
+          "desc": ["SRE at PingCAP"]
+        },
+        "interview_url": "https://sosconf.org/zh-hans/sosconf-zh-speaker-series-interviews-3/"
+      },
+      {
+        "name": "Programming makes life better",
+        "desc": [
+          "Have you heard all kinds of jokes about programmers on the Internet or even around? Is your programming life really like jokes?",
+          "As a programmer, what is your life like?",
+          "This lecture will let you learn how to keep your life organized and how to enjoy life better.",
+          "Even if you can, how to look at life and programming."
+        ],
+        "time": "10:50-11:20",
+        "speaker": {
+          "name": "Yan Fangfang",
+          "org": "Jiangxi Science and Technology Normal University",
+          "desc": [
+            "A senior at school, has done some small projects scattered, mainly focusing on being happy..."
+          ]
+        },
+        "interview_url": "https://sosconf.org/zh-hans/sosconf-zh-speaker-series-interviews-2/"
+      },
+      {
+        "name": "A dictionary to assist foreign language learning",
+        "desc": [
+          "This lecture introduces the web application 'A dictionary to assist foreign language learning' and its development technology stack.",
+          "This app allows foreign language learners to add words through the browser and create their own dictionary.",
+          "As a web application, its front end mainly uses traditional HTML + Jquery",
+          "In the development method, the data is saved in XML and rendered using XSLT style sheets.",
+          "The backend uses Django to process POST forms and modify XML data files on the server.",
+          "At present, there are still many imperfections in the front and back ends. Interested friends are welcome to participate in and contribute."
+        ],
+        "time": "16:40-17:10",
+        "speaker": {
+          "name": "Zhao Feng",
+          "org": "International Graduate School of Tsinghua University",
+          "desc": ["Open Source Lovers"]
+        },
+        "interview_url": ""
+      },
+      {
+        "name": "Write code like a shake M",
+        "desc": [
+          "This is the title party. It actually talks about two topics, static type systems and design patterns. The two, especially design patterns, have been mixed among coders. The speaker decided to talk about how to be rational from his own point of view. Look at these two people who restrict programmers' freedom (laughs)."
+        ],
+        "time": "14:00-15:30",
+        "speaker": {
+          "name": "ICE1000/Thousand Miles of Ice",
+          "org": "",
+          "desc": ["Programming Caiji, GitHub username ice1000"]
+        },
+        "interview_url": ""
+      },
+      {
+        "name": "How to make a good project",
+        "desc": [
+          "What kind of project is a good project",
+          "How to make a good project",
+          "Preparation for a good project and other three aspects. Combining IT and MBA related knowledge, let students combine business management thinking Ways to develop more influential program projects."
+        ],
+        "time": "17:10-18:00",
+        "speaker": {
+          "name": "Hanlin Yang",
+          "org": "Chongqing University of Posts and Telecommunications Mobile College",
+          "desc": [
+            "A post-00 programmer, currently studying software engineering at Chongqing University of Posts and Telecommunications Mobile Communication College. Good at CTF and programming related competitions. Currently serving as the head of MaX. Studio (Internet Innovation Center, Basic Algorithm Innovation Center) and Chongqing The legal person of Wuyu Network Technology Co., Ltd. has rich experience in team management and program development."
+          ]
+        },
+        "interview_url": ""
+      },
+      {
+        "name": "Hongyan Online School's background architecture evolution and self-developed RPC framework",
+        "desc": [
+          "Hongyan Online School Workstation, as a student organization serving the school, has many services developed around students. When Hongyan Online School has gone through 20 years, the accumulated outdated structure and business are no longer enough to support us moving forward.",
+          "This speech will start from the real scene, deconstruct the complexity of the business, disassemble the problem step by step, and solve the problem. The new technology stack replaces the old technology stack, the old service is gradually reconstructed into the new service, and the overall evolution is The architecture of microservices.",
+          "At the same time, we self-developed the Begonia RPC framework to meet the challenges of replacing the architecture and technological updates."
+        ],
+        "time": "18:00-18:40",
+        "speaker": {
+          "name": "Kieran / Hu Cang",
+          "org": "Chongqing University of Posts and Telecommunications·Hongyan Online School Workstation",
+          "desc": [
+            "A back-end boy.",
+            "Once Java was used as the main development language, now Golang is mainly used.",
+            "Responsible for the reconstruction and evolution of the back-end architecture of the Hongyan Online School workstation.",
+            "In order to solve the problem of Hongyan back-end architecture, self-developed RPC framework Begonia."
+          ]
+        },
+        "interview_url": ""
+      }
+    ],
+    "schedule": {
+      "morning": [
+        {
+          "time": "9:10-9:30",
+          "title": "SOSCONF.ZH 2020 KICK-OFF",
+          "type": "Opening Speech",
+          "color": "orange"
+        },
+        {
+          "time": "9:40-10:10",
+          "title": "DESIGN A LANGUAGE FROM SCRATCH",
+          "speaker": "Dengchun Li",
+          "type": "Talk"
+        },
+        {
+          "time": "10:10-10:20",
+          "title": "Lottery",
+          "type": "activity",
+          "color": "orange"
+        },
+        {
+          "time": "10:20-10:50",
+          "title": "WebP Server Go",
+          "speaker": "Nova Kwok",
+          "type": "Talk"
+        },
+        {
+          "time": "10:50-11:20",
+          "title": "Programming makes life better",
+          "speaker": "Fangfang Yan",
+          "type": "Talk"
+        },
+        {
+          "time": "11:20-11:50",
+          "title": "Open source software and free software",
+          "speaker": "Kiritake Kumi",
+          "type": "Talk"
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "14:00-15:30",
+          "title": "CODING LIKE M SHAKING",
+          "speaker": "ICE1000",
+          "type": "Talk"
+        },
+        {
+          "time": "15:30-15:40",
+          "title": "Lottery",
+          "type": "Activity",
+          "color": "orange"
+        },
+        {
+          "time": "15:40-16:20",
+          "title": "SimpleXX community introduction",
+          "speaker": "Zhihong Niu",
+          "type": "Talk"
+        },
+        {
+          "time": "16:20-16:40",
+          "title": "Reptiles, to be cut or rewarded?",
+          "speaker": "Yang Li",
+          "type": "Talk"
+        },
+        {
+          "time": "16:40-17:10",
+          "title": "A dictionary to assist foreign language learning",
+          "speaker": "Feng Zhao",
+          "type": "Talk"
+        },
+        {
+          "time": "17:10-18:00",
+          "title": "How to code a good project",
+          "speaker": "Hanlin Yang",
+          "type": "Talk"
+        },
+        {
+          "time": "18:00-18:40",
+          "title": "The evolution of the background architecture of Hongyan Online School and the self-developed RPC framework",
+          "speaker": "Kieran",
+          "type": "Talk"
+        }
+      ]
+    },
+    "nav": {
+      "menu": [
+        {
+          "title": "Join sosconf",
+          "icon": "check-all",
+          "link": "reg"
+        },
+        {
+          "title": "Sponsors",
+          "icon": "contacts",
+          "link": "coop"
+        },
+        {
+          "title": "Talk List",
+          "icon": "format-list-bulleted",
+          "link": "talks"
+        },
+        {
+          "title": "Schedule & Progress",
+          "icon": "chart-timeline-variant",
+          "link": "progress"
+        },
+        {
+          "title": "About",
+          "icon": "information",
+          "link": "about"
+        }
+      ],
+      "social": [
+        {
+          "title": "join sosconf telegram group",
+          "icon": "telegram",
+          "link": "https://t.me/soscon"
+        }
+      ]
+    },
+    "communities": [
+      {
+        "name": "UESTC LUG",
+        "desc": [
+          "This community is a user group spontaneously organized by GNU/Linux enthusiasts in the school to provide support and assistance to Linux users and free software enthusiasts in the school.",
+          "Committed to promoting free software such as Linux and advocating a free software culture."
+        ],
+        "url": "https://uestclug.org"
+      },
+      {
+        "name": "Feiyang Club of Sichuan University",
+        "desc": [
+          "Sichuan University Feiyang Club is a rare professional IT public welfare organization in Chengdu's colleges and universities.",
+          "We are committed to providing free IT services to teachers and students with the most sincere attitude, the most complete management, and the most professional knowledge to optimize the campus life experience.",
+          "Since our establishment in 2003, we have gone through eleven years of ups and downs. During these eleven years, we have won the title of the top ten campus clubs many times.",
+          "With the purpose of innovative practice and serving Sichuan University, it has won an excellent reputation among teachers and students."
+        ],
+        "url": "https://www.fyscu.com"
+      },
+      {
+        "name": "FreeCodeCamp Chengdu",
+        "desc": [
+          "The freeCodeCamp Chengdu community was established in 2016. It is the first batch of FCC urban offline communities in Mainland China. It currently has more than 1,000 members and is also the largest FCC urban community.",
+          "With the hard work of more than 20 people in the core team for two years, FCC Chengdu has covered programming education, technical recruitment, industry conferences and other programmers' careers of public welfare services."
+        ],
+        "url": "https://fcc-cd.dev"
+      },
+      {
+        "name": "Chengdu University of Technology Open Source Association",
+        "desc": [
+          "Chengdu University of Technology has a long history and it keeps up with the trend of technological innovation.",
+          "A large number of undergraduates and postgraduates majoring in electronic information and computer science are enrolled every year, and there are many excellent teachers who teach, study and innovate together with students.",
+          "There are student associations including the Open Source Association, Electronics Association and 5704 Studio to organize freshman training and cooperative development projects in the school. The school community has a good atmosphere of learning and innovation."
+        ]
+      },
+      {
+        "name": "Zhirui Computer Association of Sichuan University",
+        "desc": [
+          "Sichuan University Zhirui Science and Technology Innovation Association was established in 2018. Two years after its establishment, it has more than 200 registered members in Sichuan University. It won the second place in the School of Computer Science in the May 4th Appraisal in 2018.",
+          "The club aims to cultivate high-level modern C++ talents and use C++ 11 and newer versions to teach club members."
+        ],
+        "url": "https://covariant.cn"
+      },
+      {
+        "name": "Microsoft Student Club of University of Electronic Science and Technology of China",
+        "desc": [
+          "Microsoft Student Club (MSC) is a student organization established by Microsoft Research Asia in 34 double-class universities.",
+          "In UESTC, MSC is an established student organization with a history of 17 years.",
+          "UESTC MSC and UESTC LUG have in-depth cooperation in multiple event organizations;",
+          "In addition, in various activities such as the practice space station and internal study groups, MSC uses the open source method for organizational planning, advocates the spirit of open source, and makes a group of students in the electric field come into contact with open source."
+        ]
+      },
+      {
+        "name": "Harbin Institute of Technology LUG",
+        "desc": [
+          "HITLUG is a community established by GNU/Linux enthusiasts of Harbin Institute of Technology. It provides a communication platform for students who love open source and Linux users. The community is committed to promoting the use of free software among students, supporting the development of free software, and providing a platform for free software. Inject the strength of students."
+        ]
+      },
+      {
+        "name": "Lanzhou University Open Source Community",
+        "desc": [
+          "The Lancang University Open Source Community was established on May 10, 2006. It is an organization spontaneously established by open source enthusiasts in the university and supported by the Lancang University Distribution and Embedded System Laboratory. It aims to learn and research open source software technology, and promote and promote open source software. To create a good computer technology learning atmosphere, and be responsible for maintaining the only and most used open source mirroring site in Northwest China."
+        ],
+        "url": "http://mirror.lzu.edu.cn"
+      },
+      {
+        "name": "Redrock Team",
+        "desc": [
+          "Hongyan Online School Workstation is the only school-level student organization engaged in the development and operation of Internet products in Chongqing University of Posts and Telecommunications. Favored by well-known Internet companies such as Alibaba, ByteDance, and Huawei. The team has been awarded series of honors such as 'National May 4th Red Flag League Branch', 'CYL Central New Media Professional Studio', and 'Chongqing IT Outstanding Youth Group'. We have developed and launched a series of excellent campus network products such as the 'Chongyou Helper' WeChat official account, the 'Chongyoubang' WeChat applet, and the 'Handheld Zhongyou' APP, which are well received by teachers and students."
+        ],
+        "url": "https://wx.redrock.team/aboutus/"
+      }
+    ]
+  },
+  "views": {
+    "coop": {
+      "desc1": "We seek to provide financial assistance to student speakers in different regions. In addition, we hope to enrich the content of events and banquets. The conference is not only dedicated to encouraging students to understand, participate, and contribute to open source, but also to create opportunities for students who agree with open source concepts and have long-term participation in open source projects to exchange technologies and share experiences. Therefore, we welcome relevant companies and organizations to provide necessary sponsorship to provide certain support for the success of this conference.",
+      "desc2": "Sponsors will be able to get:",
+      "items": [
+        "Support open source business",
+        "Have the opportunity to communicate with academic elites from all over the country and keep abreast of academic frontiers",
+        "Exploit potential students to prepare the company for recruiting young and high-quality employees",
+        "Expand the scope of marketing and promote your brand to a larger scale among students"
+      ]
+    },
+    "about": {
+      "volunteers": "Volunteers",
+      "communities": "Communities"
+    }
+  },
+  "components": {
+    "about": {
+      "staff": {
+        "volunteers": "Volunteer",
+        "media": "Media",
+        "technical": "Technical Support",
+        "sponsor": "Sponsor",
+        "site": "Site",
+        "graphic": "Graphic Design",
+        "effect": "Video Effect"
+      }
+    },
+    "home": {
+      "pagehead": {
+        "about": "关于年会"
+      },
+      "about": {
+        "title": "sosconf.zh",
+        "pre1": [
+          "sosconf.zh has been held on October 18, 2020.",
+          "This year's sosconf.zh will focus on the theme of \"open source\", and set up online and offline parts: the online part will be mainly composed of keynote speeches and topic Talks, which will be open source projects for students, application of open source ideas and other broad open source technology practices Provide a platform for sharing and communication;",
+          "The offline part will mainly be a Hackathon that lasts for two days, providing a channel for the open source organizations of various colleges and universities to communicate and understand; Making the open source communities of various colleges and universities can regularly face-to-face exchanges about the organization and the progress of the project; Online and offline puzzle-solving games will also be included in this sosconf."
+        ],
+        "pre2": [
+          "We hope that the community gathered by the sosconf will serve as a long-term stage and a platform for students to exchange technology and open discussion, so that the open source concept can thrive in the student community.",
+          "We also wish that students can communicate actively , let students stand on the stage, show the ideas born in the laboratory, share the passion contained in coding, and chat about the future that belongs to the concept of open source. It is also expected that the participants can continue to exert their influence, so that the concept of open source can be better spread among the student groups."
+        ],
+        "information": "Information",
+        "info_list": [
+          {
+            "title": "Address",
+            "icon": "home",
+            "desc": "Chengdu, China · University of Electronic Science and Technology of China (Qingshuihe Campus)"
+          },
+          {
+            "title": "Time",
+            "icon": "clock-outline",
+            "desc": "October 18th, 2020"
+          },
+          {
+            "title": "Organizer",
+            "icon": "account",
+            "desc": "openingsource.org"
+          }
+        ]
+      }
+    }
+  }
+}
