@@ -8,13 +8,18 @@ on:
       - main
 
 env:
-  NODE_VERSION: '16.x' # <--- 将 Node.js 版本改为 16.x
+  NODE_VERSION: '16.x' # 您已更改为 Node.js 16.x
+
+permissions: # <--- 添加这个 permissions 块
+  contents: write  # 允许 GITHUB_TOKEN 对仓库内容进行写操作（例如推送分支）
 
 jobs:
-  # ... 后续内容与方法一中的类似，确保 Build project 步骤正确 ...
   build-and-deploy:
     name: Build and Deploy
     runs-on: ubuntu-latest
+    # 或者在这里为特定作业设置权限:
+    # permissions:
+    #   contents: write
 
     steps:
       - name: Checkout 🛎️
@@ -33,10 +38,23 @@ jobs:
         run: npx browserslist@latest --update-db
 
       - name: Build project 🛠️
-        run: yarn build # 如果使用 Node 16，可能不需要 NODE_OPTIONS
+        run: yarn build
+        # 如果您在使用 Node 16 时仍然遇到 OpenSSL 错误 (不太可能，但以防万一)
+        # 您可能仍然需要 NODE_OPTIONS。但通常 Node 16 是可以的。
+        # env:
+        #   NODE_OPTIONS: --openssl-legacy-provider
+
+      # 可选步骤：列出 dist 目录内容，以验证构建输出
+      - name: List build directory contents
+        run: ls -R ./dist
 
       - name: Deploy to GitHub Pages 🚀
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          # publish_branch: gh-pages # 默认是 gh-pages，可以省略
+          # user_name: 'github-actions[bot]' # 自定义提交者名称 (可选)
+          # user_email: 'github-actions[bot]@users.noreply.github.com' # 自定义提交者邮箱 (可选)
+          # commit_message: ${{ github.event.head_commit.message }} # 使用最后一次提交的消息作为部署提交消息 (可选)
+          # cname: your-custom-domain.com # 如果您使用自定义域名，请取消注释并替换
