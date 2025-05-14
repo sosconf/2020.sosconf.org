@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sosconf2020/precache-manifest.01d999a89d1566f6eeda277d58b5f1b7.js"
+  "/precache-manifest.82e047978d128f84ae3264189f880fde.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "sosconf-zh-2020"});
