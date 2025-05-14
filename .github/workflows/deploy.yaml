@@ -57,4 +57,4 @@ jobs:
           # user_name: 'github-actions[bot]' # 自定义提交者名称 (可选)
           # user_email: 'github-actions[bot]@users.noreply.github.com' # 自定义提交者邮箱 (可选)
           # commit_message: ${{ github.event.head_commit.message }} # 使用最后一次提交的消息作为部署提交消息 (可选)
-          # cname: your-custom-domain.com # 如果您使用自定义域名，请取消注释并替换
+          cname: 2020.sosconf.org # 如果您使用自定义域名，请取消注释并替换
